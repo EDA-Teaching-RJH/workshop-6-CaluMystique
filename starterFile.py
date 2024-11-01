@@ -22,7 +22,7 @@ def nested_operations(a, b):
     try: 
         print(a / b)
         try: 
-            print(sqrt(a/b)) 
+            print(math.sqrt(a/b)) 
             return "whoKnowsWhat"
         except ZeroDivisionError: 
             return "Its Very Broken"
